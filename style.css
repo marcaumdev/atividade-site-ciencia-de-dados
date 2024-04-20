@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* reset da página */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* container */
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* body */
+body{
+    background-color: black;
+}
+
+/* header */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.logo img{
+    width: 200px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+}
+
+nav a{
+    text-decoration: none;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1.5em;
+    color: white;
+}
+
+/* Primeiro banner */
+.banner1{
+    background-image: url(./img/banner-1.jpeg);
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.gradiente{
+    background-image: linear-gradient(rgb(0, 0, 0), rgba(255,0,0,0), rgb(0, 0, 0));
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.gradiente h1,
+.gradiente p{
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    text-shadow: 3px 3px black;
+}
+
+.gradiente h1{
+    font-size: 5em;
+    
+}
+
+.gradiente p{
+    font-size: 2em;
+    margin-bottom: 25px;
+}
+
+.gradiente a{
+    text-decoration: none;
+    font-family: "Bebas Neue", sans-serif;
+    color: black;  
+    font-weight: 700;
+    font-size: 1.5em;
+    background-color: white;
+    border-radius: 25px;
+    padding: 5px 15px;
+}
+
+/* cenas iconicas */
+.iconicas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iconicas h2,
+.iconicas p{
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+}
+
+.iconicas h2{
+    font-size: 4em;
+    
+}
+
+.iconicas p{
+    font-size: 1.8em;
+    margin-bottom: 25px;
+}
+
+.cenas{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 50px;
+}
+
+.cenas div{
+    height: 400px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+    border-radius: 15px;
+}
+
+.cenas div p{
+    text-shadow: 3px 3px black;
+    font-size: 2em;
+    text-align: center;
+}
+
+.cena1{
+    background-image: url(./img/luffy-ajuda-nami.jpg);
+}
+
+.cena2{
+    background-image: url(./img/zoro.jpeg);
+}
+
+.cena3{
+    background-image: url(./img/ace.avif);
+}
+
+/* banner 2 */
+.banner2{
+    width: 100%;
+    height: 700px;
+    background-image: url(./img/Gear-Second.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.divBanner2{
+    background-image: linear-gradient(rgb(0, 0, 0), rgba(255,0,0,0), rgb(0, 0, 0));
+    height: 100%;
+}
+
+.divBanner2 div{
+    height: 100%;
+    width: 700px;
+    display: flex;
+    align-items: initial;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 100px;
+}
+
+.divBanner2 div h2,
+.divBanner2 div p{
+    font-family: "Bebas Neue", sans-serif;
+    color: black;
+    text-align: center;
+    text-shadow: 3px 3px white;
+}
+
+.divBanner2 div h2{
+    font-size: 4em;
+    
+}
+
+.divBanner2 div p{
+    font-size: 1.8em;
+    margin-bottom: 25px;
+}
+
+/* footer */
+footer div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer div span{
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
